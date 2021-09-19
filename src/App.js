@@ -11,6 +11,7 @@ function App({ counter, dispatch }) {
       <button onClick={action(DECREMENT)}>-</button>
       <button onClick={action(INCREMENT_IF_ODD)}>Increment if odd</button>
       <button onClick={action(INCREMENT_ASYNC)}>Increment async</button>
+      <div>Automatic Deploy!</div>
     </div>
   );
 }
